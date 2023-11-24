@@ -5,7 +5,6 @@ const electionSchema = new mongoose.Schema({
     "password": {type: String},
     "mobileNo": {type: Number},
     "aadharNo": {type: Number},
-    "party": {type: String},
     "voteStatus": {type: Boolean}
 }, {
     collection: "users"
